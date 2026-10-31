@@ -27,4 +27,4 @@ GPU series use UUID labels; Prometheus adds instance labels. Bind to a private i
 
 ## Implementation status
 
-This is an initial NVML implementation, not the complete planned release. DCGM, MIG/profiling, Kubernetes attribution and deployment, health endpoints, configurable sampling, collector recovery, expanded telemetry, and automated tests remain to be implemented. Collection failures can yield partial snapshots; collector_success currently reflects inventory success only. Hardware and compilation validation have not been performed in this macOS workspace.
+This is an initial NVML implementation, not the complete planned release. DCGM, MIG/profiling, Kubernetes attribution and deployment, health endpoints, configurable sampling, collector recovery, expanded telemetry, and automated tests remain to be implemented. Collection failures can yield partial snapshots; collector_success currently reflects inventory success only. Hardware and compilation validation have not been performed yet.
