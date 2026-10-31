@@ -1,0 +1,12 @@
+[Unit]
+Description=NVIDIA GPU Prometheus exporter
+After=network.target
+[Service]
+ExecStart=/usr/local/bin/nvidia-gpu-exporter
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+[Install]
+WantedBy=multi-user.target
